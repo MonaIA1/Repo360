@@ -14,7 +14,7 @@
    [MR-Music-Kim20.wav](MeetingRoom(MR)/MR-Music-Kim20.wav)
     
 4. Rendering with the Proposed Method  
-   [MR-Music-Ours.wav](MeetingRoom(MR)/MR-Music-Ours.wav)
+   [MR-Music-Ours.wav](MeetingRoom(MR)/MR-Music-Ours.mp3)
     
 ### Audio Rendering Speech: 
 1. Ground-truth   
@@ -27,7 +27,7 @@
    [MR-Speech-Kim20.wav](MeetingRoom(MR)/MR-Speech-Kim20.wav)
    
 5. Rendering with the Proposed Method  
-   [MR-Speech-Ours.wav](MeetingRoom(MR)/MR-Speech-Ours.wav)
+   [MR-Speech-Ours.wav](MeetingRoom(MR)/MR-Speech-Ours.mp3)
 
 ## Kitchen (KT)
 ![Kitchen](Kitchen.jpg)
@@ -43,7 +43,7 @@
    [KT-Music-Kim20.wav](Kitchen(KT)/KT-Music-Kim20.wav)
     
 4. Rendering with the Proposed Method  
-   [KT-Music-Ours.wav](Kitchen(KT)/KT-Music-Ours.wav)
+   [KT-Music-Ours.wav](Kitchen(KT)/KT-Music-Ours.mp3)
     
 ### Audio Rendering Speech: 
 1. Ground-truth  
@@ -56,7 +56,7 @@
    [KT-Speech-Kim20.wav](Kitchen(KT)/KT-Speech-Kim20.wav)
    
 5. Rendering with the Proposed Method  
-   [KT-Speech-Ours.wav](Kitchen(KT)/KT-Speech-Ours.wav)
+   [KT-Speech-Ours.wav](Kitchen(KT)/KT-Speech-Ours.mp3)
 
 ## Usability (UL)
 ![Usability](Usability.jpg)
@@ -72,7 +72,7 @@
    [UL-Music-Kim20.wav](Usability(UL)/UL-Music-Kim20.wav)
     
 4. Rendering with the Proposed Method  
-   [UL-Music-Ours.wav](Usability(UL)/UL-Music-Ours.wav)
+   [UL-Music-Ours.wav](Usability(UL)/UL-Music-Ours.mp3)
     
 ### Audio Rendering Speech: (volume may vary)
 1. Ground-truth  
@@ -85,7 +85,7 @@
    [UL-Speech-Kim20.wav](Usability(UL)/UL-Speech-Kim20.wav)
    
 5. Rendering with the Proposed Method  
-   [UL-Speech-Ours.wav](Usability(UL)/UL-Speech-Ours.wav)
+   [UL-Speech-Ours.wav](Usability(UL)/UL-Speech-Ours.mp3)
 
 ---
 
