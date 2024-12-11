@@ -74,7 +74,7 @@
 4. Rendering with the Proposed Method  
    [UL-Music-Ours Audio](Usability(UL)/UL-Music-Ours.mp3)
     
-### Audio Rendering Speech: (volume may vary)
+### Audio Rendering Speech:
 1. Ground-truth  
    [UL-Speech-GT Audio](Usability(UL)/UL-Speech-GT.wav)
    
