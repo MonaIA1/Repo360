@@ -5,29 +5,29 @@
 
 ### Audio Rendering Music: 
 1. Ground-truth  
-   [MR-Music-GT.wav](Meeting Room(MR)/MR-Music-GT.wav)
+   [MR-Music-GT.wav](MeetingRoom(MR)/MR-Music-GT.wav)
      
 2. Rendering with Kim19 [1]  
-   [MR-Music-Kim19.wav](Meeting Room(MR)/MR-Music-Kim19.wav)
+   [MR-Music-Kim19.wav](MeetingRoom(MR)/MR-Music-Kim19.wav)
    
 3. Rendering with Kim20 [2]  
-   [MR-Music-Kim20.wav](Meeting Room(MR)/MR-Music-Kim20.wav)
+   [MR-Music-Kim20.wav](MeetingRoom(MR)/MR-Music-Kim20.wav)
     
 4. Rendering with the Proposed Method  
-   [MR-Music-Ours.wav](Meeting Room(MR)/MR-Music-Ours.wav)
+   [MR-Music-Ours.wav](MeetingRoom(MR)/MR-Music-Ours.wav)
     
 ### Audio Rendering Speech: 
 1. Ground-truth   
-   [MR-Speech-GT.wav](Meeting Room(MR)/MR-Speech-GT.wav)
+   [MR-Speech-GT.wav](MeetingRoom(MR)/MR-Speech-GT.wav)
    
 3. Rendering with Kim19 [1]  
-   [MR-Speech-Kim19.wav](Meeting Room(MR)/MR-Speech-Kim19.wav)
+   [MR-Speech-Kim19.wav](MeetingRoom(MR)/MR-Speech-Kim19.wav)
    
 4. Rendering with kim20 [2]  
-   [MR-Speech-Kim20.wav](Meeting Room(MR)/MR-Speech-Kim20.wav)
+   [MR-Speech-Kim20.wav](MeetingRoom(MR)/MR-Speech-Kim20.wav)
    
 5. Rendering with the Proposed Method  
-   [MR-Speech-Ours.wav](Meeting Room(MR)/MR-Speech-Ours.wav)
+   [MR-Speech-Ours.wav](MeetingRoom(MR)/MR-Speech-Ours.wav)
 
 ## Kitchen (KT)
 ![Kitchen](Kitchen.jpg)
@@ -90,5 +90,5 @@
 ---
 
 ## References
-[1] Hansung Kim, Luca Remaggi, Philip JB Jackson, and Adrian Hilton,“Immersive spatial audio reproduction for vr/ar using room acoustic modelling from 360 images,” in 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2019, pp. 120–126.
+[1] Hansung Kim, Luca Remaggi, Philip JB Jackson, and Adrian Hilton,“Immersive spatial audio reproduction for vr/ar using room acoustic modelling from 360 images,” in 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2019, pp. 120–126.<br>
 [2] Hansung Kim, Luca Remaggi, Aloisio Dourado, Teofilo de Campos, Philip JB Jackson, and Adrian Hilton, “Immersive audio-visual scene reproduction using semantic scene reconstruction from 360 cameras,” Virtual Reality, vol. 26, no. 3, pp. 823–838, 2022.
