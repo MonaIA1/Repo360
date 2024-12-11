@@ -4,85 +4,92 @@
 ![Meeting Room](MeetingRoom.jpg)
 
 ### Audio Rendering Music: (volume may vary)
-1. Ground-truth 
-   MR-Music-GT.wav
+1. Ground-truth  
+   [MR-Music-GT.wav](audio/MR-Music-GT.wav)
      
 2. Rendering with Kim19 [1]  
-  MR-Music-Kim19.wav
+   [MR-Music-Kim19.wav](audio/MR-Music-Kim19.wav)
    
 3. Rendering with Kim20 [2]  
-   MR-Music-Kim20.wav
+   [MR-Music-Kim20.wav](audio/MR-Music-Kim20.wav)
     
 4. Rendering with the Proposed Method  
-   MR-Music-Ours.wav
+   [MR-Music-Ours.wav](audio/MR-Music-Ours.wav)
     
 ### Audio Rendering Speech: (volume may vary)
 1. Ground-truth   
-   MR-Speech-GT.wav
+   [MR-Speech-GT.wav](audio/MR-Speech-GT.wav)
    
-3. Rendering with Model (1) [1]  
-   MR-Speech-Kim19.wav
+3. Rendering with Kim19 [1]  
+   [MR-Speech-Kim19.wav](audio/MR-Speech-Kim19.wav)
    
-4. Rendering with Model (2) [2]  
-   MR-Speech-Kim20.wav
+4. Rendering with kim20 [2]  
+   [MR-Speech-Kim20.wav](audio/MR-Speech-Kim20.wav)
    
 5. Rendering with the Proposed Method  
-   MR-Speech-Ours.wav
+   [MR-Speech-Ours.wav](Meeting/MR-Speech-Ours.wav)
 
 ## Kitchen (KT)
 ![Kitchen](Kitchen.jpg)
 
-### Audio Rendering Music: (volume may vary)
+### Audio Rendering Music:
 1. Ground-truth  
-   KT-Music-GT.wav
+   [KT-Music-GT.wav](Kitchen(KT)/KT-Music-GT.wav)
      
 2. Rendering with Kim19 [1]  
-  KT-Music-Kim19.wav
+   [KT-Music-Kim19.wav](Kitchen(KT)/KT-Music-Kim19.wav)
    
 3. Rendering with Kim20 [2]  
-   KT-Music-Kim20.wav
+   [KT-Music-Kim20.wav](Kitchen(KT)/KT-Music-Kim20.wav)
     
 4. Rendering with the Proposed Method  
-   KT-Music-Ours.wav
+   [KT-Music-Ours.wav](Kitchen(KT)/KT-Music-Ours.wav)
     
-### Audio Rendering Speech: (volume may vary)
-1. Ground-truth rendering by RIR  
-   KT-Speech-GT.wav
+### Audio Rendering Speech: 
+1. Ground-truth  
+   [KT-Speech-GT.wav](Kitchen(KT)/KT-Speech-GT.wav)
    
-3. Rendering with Model (1) [1]  
-   KT-Speech-Kim19.wav
+3. Rendering with Kim19 [1]  
+   [KT-Speech-Kim19.wav](Kitchen(KT)/KT-Speech-Kim19.wav)
    
-4. Rendering with Model (2) [2]  
-   KT-Speech-Kim20.wav
+4. Rendering with Kim20 [2]  
+   [KT-Speech-Kim20.wav](Kitchen(KT)/KT-Speech-Kim20.wav)
    
 5. Rendering with the Proposed Method  
-   KT-Speech-Ours.wav
+   [KT-Speech-Ours.wav](Kitchen(KT)/KT-Speech-Ours.wav)
 
 ## Usability (UL)
 ![Usability](Usability.jpg)
 
-### Audio Rendering Music: (volume may vary)
+### Audio Rendering Music: 
 1. Ground-truth  
-   UL-Music-GT.wav
+   [UL-Music-GT.wav](Usability(UL)/UL-Music-GT.wav)
      
 2. Rendering with Kim19 [1]  
-  UL-Music-Kim19.wav
+   [UL-Music-Kim19.wav](Usability(UL)/UL-Music-Kim19.wav)
    
 3. Rendering with Kim20 [2]  
-   UL-Music-Kim20.wav
+   [UL-Music-Kim20.wav](Usability(UL)/UL-Music-Kim20.wav)
     
 4. Rendering with the Proposed Method  
-   UL-Music-Ours.wav
+   [UL-Music-Ours.wav](Usability(UL)/UL-Music-Ours.wav)
     
 ### Audio Rendering Speech: (volume may vary)
-1. Ground-truth rendering by RIR  
-   UL-Speech-GT.wav
+1. Ground-truth  
+   [UL-Speech-GT.wav](Usability(UL)/UL-Speech-GT.wav)
    
-3. Rendering with Model (1) [1]  
-   UL-Speech-Kim19.wav
+3. Rendering with Kim19 [1]  
+   [UL-Speech-Kim19.wav](Usability(UL)/UL-Speech-Kim19.wav)
    
-4. Rendering with Model (2) [2]  
-   UL-Speech-Kim20.wav
+4. Rendering with Kim20 [2]  
+   [UL-Speech-Kim20.wav](Usability(UL)/UL-Speech-Kim20.wav)
    
 5. Rendering with the Proposed Method  
-   UL-Speech-Ours.wav
+   [UL-Speech-Ours.wav](Usability(UL)/UL-Speech-Ours.wav)
+
+---
+
+## References
+[1] Kim, J., et al. (2019). *Title of Paper*. [Link to paper](https://doi.org/xxxxxx)  
+[2] Kim, J., et al. (2020). *Title of Paper*. [Link to paper](https://doi.org/xxxxxx)
+
