@@ -29,3 +29,11 @@
    
 5. Rendering with the Proposed Method  
    MR-Speech-MDBNet.wav
+
+repository/
+├── README.md
+├── audio/
+│   ├── ground_truth.wav
+│   ├── model1.wav
+│   ├── model2.wav
+│   └── proposed_method.wav
