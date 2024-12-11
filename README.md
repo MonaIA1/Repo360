@@ -1,4 +1,10 @@
 # Results
+Original sound sources were recorded in an anechoic environment. Speech from the TIMIT dataset [3] and Music (clarinet) from the OpenAirLib library [4] used for sound rendering.<br>
+1. Music:
+[Music](Music-Org.mp3)
+
+2. Speech:
+[Speech](Speech-Org.mp3)
 
 ## Meeting Room (MR)
 ![Meeting Room](MeetingRoom.jpg)
@@ -90,5 +96,7 @@
 ---
 
 ## References
-[1] Hansung Kim, Luca Remaggi, Philip JB Jackson, and Adrian Hilton,“Immersive spatial audio reproduction for vr/ar using room acoustic modelling from 360 images,” in 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2019, pp. 120–126.<br>
-[2] Hansung Kim, Luca Remaggi, Aloisio Dourado, Teofilo de Campos, Philip JB Jackson, and Adrian Hilton, “Immersive audio-visual scene reproduction using semantic scene reconstruction from 360 cameras,” Virtual Reality, vol. 26, no. 3, pp. 823–838, 2022.
+[1] H. Kim, L. Remaggi, P.J. Jackson, and A. Hilton, “Immersive spatialaudio reproduction for vr/ar using room acoustic modelling from 360 images,” in Proc. IEEE VR, 2019.<br>
+[2] H. Kim, L. Remaggi, A. Dourado, T. de Campos, P.J.B. Jackson and A. Hilton, “Immersive Audio-Visual Scene Reproduction using Semantic Scene Reconstruction from 360 Cameras,” Virtual Reality, 2022.<br>
+[3] J.S. Garofolo, L.F. Lamel, W.M. Fisher, J.G. Fiscus, D.S. Pallet, and N.L. Dahlgren, “DARPA TIMIT acoustic phonetic continuous speechcorpus CDROM,” NIST Interagency, Tech. Rep., 1993.<br>
+[4] K. Brown, M. Paradis, and D. Murphy, “Openairlib: A javascript libraryfor the acoustics of spaces,” in Audio Engineering Society Convention 142, May 2017. [Online]. Available: http://www.aes.org/e-lib/browse.cfm?elib=18586
