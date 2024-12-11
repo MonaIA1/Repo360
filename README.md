@@ -1,10 +1,10 @@
 # Results
 Original sound sources were recorded in an anechoic environment. Speech from the TIMIT dataset [3] and Music (clarinet) from the OpenAirLib library [4] used for sound rendering.<br>
 1. Music:
-[Music](Music-Org.mp3)
+[Music Audio](Music-Org.mp3)
 
 2. Speech:
-[Speech](Speech-Org.mp3)
+[Speech Audio](Speech-Org.mp3)
 
 ## Meeting Room (MR)
 ![Meeting Room](MeetingRoom.jpg)
