@@ -1,6 +1,3 @@
-# VR Realtime Application Demo:
-[https://drive.google.com/file/d/1TpVJHTgmNENElOsPLZTFZok6Okk7UkuS/view?usp=drive_link
-](https://drive.google.com/file/d/1cTXllUk8isegXr3-dJ_EdMYgaXatQw3H/view?usp=drive_link)
 # Results
 Original sound sources were recorded in an anechoic environment. Speech from the TIMIT dataset [3] and Music (clarinet) from the OpenAirLib library [4] used for sound rendering.<br>
 1. Music:
@@ -97,6 +94,9 @@ Original sound sources were recorded in an anechoic environment. Speech from the
    [UL-Speech-Ours Audio](Usability(UL)/UL-Speech-Ours.mp3)
 
 ---
+# VR Real-Time Application Demo:
+[https://drive.google.com/file/d/1TpVJHTgmNENElOsPLZTFZok6Okk7UkuS/view?usp=drive_link
+](https://drive.google.com/file/d/1cTXllUk8isegXr3-dJ_EdMYgaXatQw3H/view?usp=drive_link)
 
 ## References
 [1] H. Kim, L. Remaggi, P.J. Jackson, and A. Hilton, “Immersive spatialaudio reproduction for vr/ar using room acoustic modelling from 360 images,” in Proc. IEEE VR, 2019.<br>
