@@ -13,7 +13,7 @@ Original sound sources were recorded in an anechoic environment. Speech from the
 ### Audio Rendering Music: 
 1. Ground-truth  
    [MR-Music-GT Audio](MeetingRoom(MR)/MR-Music-GT.wav)
-   [![Demo](images/thumbnail.PNG)](https://drive.google.com/file/d/1LI9tDGbYeFHzlU9n_uhDSe19fhLXmz9N/view?usp=sharing)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1LI9tDGbYeFHzlU9n_uhDSe19fhLXmz9N/view?usp=sharing)
      
 3. Rendering with Kim19 [1]  
    [MR-Music-Kim19 Audio](MeetingRoom(MR)/MR-Music-Kim19.wav)
