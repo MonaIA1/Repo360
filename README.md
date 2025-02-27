@@ -1,5 +1,5 @@
 # VR Real-Time Application Demo:
-[![Demo](images/thumbnail.PNG)](https://drive.google.com/file/d/1WpDAOlbVa9iQwit7GkHktRNwOfa2AAlL/view?usp=drive_link).
+[![Demo](images/thumbnail.PNG)](https://drive.google.com/file/d/1WpDAOlbVa9iQwit7GkHktRNwOfa2AAlL/view?usp=drive_link)
 
 ---
 # Results
