@@ -12,17 +12,16 @@ Original sound sources were recorded in an anechoic environment. Speech from the
 
 ### Audio Rendering Music: 
 1. Ground-truth  
-   [MR-Music-GT Audio](MeetingRoom(MR)/MR-Music-GT.wav)
    [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1LI9tDGbYeFHzlU9n_uhDSe19fhLXmz9N/view?usp=sharing)
      
 3. Rendering with Kim19 [1]  
-   [MR-Music-Kim19 Audio](MeetingRoom(MR)/MR-Music-Kim19.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1BBlF_tTRgTWzmkybLY7IPhv0zz0pPu_V/view?usp=sharing)
    
 4. Rendering with Kim20 [2]  
-   [MR-Music-Kim20 Audio](MeetingRoom(MR)/MR-Music-Kim20.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/146aeV4wLbx9mLssf3E5bznAkhe-f5qs9/view?usp=sharing)
     
 5. Rendering with the Proposed Method  
-   [MR-Music-Ours Audio](MeetingRoom(MR)/MR-Music-Ours.mp3)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1TTMwIEzJ_Xv6-VsxqLmKtE1jMwyPitck/view?usp=sharing))
     
 ### Audio Rendering Speech: 
 1. Ground-truth   
