@@ -41,29 +41,29 @@ Original sound sources were recorded in an anechoic environment. Speech from the
 
 ### Audio Rendering Music:
 1. Ground-truth  
-   [KT-Music-GT Audio](Kitchen(KT)/KT-Music-GT.wav)
-     
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/15lRtQ-squ44wiqJ2J57Y_UnMZdPvUecd/view?usp=sharing)
+    
 2. Rendering with Kim19 [1]  
-   [KT-Music-Kim19 Audio](Kitchen(KT)/KT-Music-Kim19.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/15iG6kWfux9Q65hvNATkFpGEN_C0K8Qk9/view?usp=sharing)
    
 3. Rendering with Kim20 [2]  
-   [KT-Music-Kim20 Audio](Kitchen(KT)/KT-Music-Kim20.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1e5956aoB2Ph7mOySXbyRCBT0bXQCxBf0/view?usp=sharing)
     
 4. Rendering with the Proposed Method  
-   [KT-Music-Ours Audio](Kitchen(KT)/KT-Music-Ours.mp3)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1MrdDpx6z1RzmLaTf6BbJoc-kNUhU6yyo/view?usp=sharing)
     
 ### Audio Rendering Speech: 
 1. Ground-truth  
-   [KT-Speech-GT Audio](Kitchen(KT)/KT-Speech-GT.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1llXdRm53UNXRyl9r5XGIr-fqP9pZk2KN/view?usp=sharing)
    
 3. Rendering with Kim19 [1]  
-   [KT-Speech-Kim19 Audio](Kitchen(KT)/KT-Speech-Kim19.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1gzifOV3v4W_EzLFGklw53FhcumO2gcrj/view?usp=sharing)
    
 4. Rendering with Kim20 [2]  
-   [KT-Speech-Kim20 Audio](Kitchen(KT)/KT-Speech-Kim20.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1XmzkHQcViPsSRsljBpTZm5U4FXDKqD3v/view?usp=sharing)
    
 5. Rendering with the Proposed Method  
-   [KT-Speech-Ours Audio](Kitchen(KT)/KT-Speech-Ours.mp3)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1wqX_A5Utg0D-Uom17TzbNZsbKb297u46/view?usp=sharing)
 
 ## Usability (UL)
 ![Usability](Usability.jpg)
