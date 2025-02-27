@@ -13,87 +13,62 @@ Original sound sources were recorded in an anechoic environment. Speech from the
 ### Audio Rendering Music: 
 |1. Ground-truth  | 2. Rendering with Kim19 [1]  |
 |-------------|------------------------|
-|[![Demo](images/audio.PNG)](https://drive.google.com/file/d/1LI9tDGbYeFHzlU9n_uhDSe19fhLXmz9N/view?usp=sharing) |  [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1BBlF_tTRgTWzmkybLY7IPhv0zz0pPu_V/view?usp=sharing) 
-     
+|[![Demo](images/audio.PNG)](https://drive.google.com/file/d/1LI9tDGbYeFHzlU9n_uhDSe19fhLXmz9N/view?usp=sharing) |  [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1BBlF_tTRgTWzmkybLY7IPhv0zz0pPu_V/view?usp=sharing) |
   
-   
 |3. Rendering with Kim20 [2]  | 4. Rendering with the Proposed Method |
 |-------------|------------------------|
-| [![Demo](images/audio.PNG)](https://drive.google.com/file/d/146aeV4wLbx9mLssf3E5bznAkhe-f5qs9/view?usp=sharing) |  [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1TTMwIEzJ_Xv6-VsxqLmKtE1jMwyPitck/view?usp=sharing) 
-    
- 
-  
-    
+| [![Demo](images/audio.PNG)](https://drive.google.com/file/d/146aeV4wLbx9mLssf3E5bznAkhe-f5qs9/view?usp=sharing) |  [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1TTMwIEzJ_Xv6-VsxqLmKtE1jMwyPitck/view?usp=sharing) |
+   
 ### Audio Rendering Speech: 
-1. Ground-truth   
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1qYEKLN3zRHKjo7P2Ix0J66mEr6w9o66X/view?usp=sharing) 
-   
-3. Rendering with Kim19 [1]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1UyBtsnMOoGVNCreh0yb0ADCBMwPZAKO0/view?usp=sharing) 
+|1. Ground-truth  | 2. Rendering with Kim19 [1]  |
+|-------------|------------------------|
+|[![Demo](images/audio.PNG)](https://drive.google.com/file/d/1qYEKLN3zRHKjo7P2Ix0J66mEr6w9o66X/view?usp=sharing) |   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1UyBtsnMOoGVNCreh0yb0ADCBMwPZAKO0/view?usp=sharing) |
   
-4. Rendering with kim20 [2]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1qhhU1zMjChjVcbhfY52EiDLEChd5_TWj/view?usp=sharing) 
+|3. Rendering with Kim20 [2]  | 4. Rendering with the Proposed Method |
+|-------------|------------------------|
+|[![Demo](images/audio.PNG)](https://drive.google.com/file/d/1qhhU1zMjChjVcbhfY52EiDLEChd5_TWj/view?usp=sharing) | [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1G8XyAifZLJ9Vs_pXBe2HkxaL0h1DAXmm/view?usp=sharing)|
    
-5. Rendering with the Proposed Method  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1G8XyAifZLJ9Vs_pXBe2HkxaL0h1DAXmm/view?usp=sharing)
-
 ## Kitchen (KT)
 ![Kitchen](Kitchen.jpg)
 
 ### Audio Rendering Music:
-1. Ground-truth  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/15lRtQ-squ44wiqJ2J57Y_UnMZdPvUecd/view?usp=sharing)
-    
-2. Rendering with Kim19 [1]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/15iG6kWfux9Q65hvNATkFpGEN_C0K8Qk9/view?usp=sharing)
-   
-3. Rendering with Kim20 [2]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1e5956aoB2Ph7mOySXbyRCBT0bXQCxBf0/view?usp=sharing)
-    
-4. Rendering with the Proposed Method  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1MrdDpx6z1RzmLaTf6BbJoc-kNUhU6yyo/view?usp=sharing)
-    
+|1. Ground-truth  | 2. Rendering with Kim19 [1]  |
+|-------------|------------------------|
+|[![Demo](images/audio.PNG)](https://drive.google.com/file/d/15lRtQ-squ44wiqJ2J57Y_UnMZdPvUecd/view?usp=sharing)|  [![Demo](images/audio.PNG)](https://drive.google.com/file/d/15iG6kWfux9Q65hvNATkFpGEN_C0K8Qk9/view?usp=sharing)|
+  
+|3. Rendering with Kim20 [2]  | 4. Rendering with the Proposed Method |
+|-------------|------------------------|
+| [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1e5956aoB2Ph7mOySXbyRCBT0bXQCxBf0/view?usp=sharing) |  [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1MrdDpx6z1RzmLaTf6BbJoc-kNUhU6yyo/view?usp=sharing)|
+  
 ### Audio Rendering Speech: 
-1. Ground-truth  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1llXdRm53UNXRyl9r5XGIr-fqP9pZk2KN/view?usp=sharing)
+|1. Ground-truth  | 2. Rendering with Kim19 [1]  |
+|-------------|------------------------|
+|[![Demo](images/audio.PNG)](https://drive.google.com/file/d/1llXdRm53UNXRyl9r5XGIr-fqP9pZk2KN/view?usp=sharing) | [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1gzifOV3v4W_EzLFGklw53FhcumO2gcrj/view?usp=sharing)|
    
-3. Rendering with Kim19 [1]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1gzifOV3v4W_EzLFGklw53FhcumO2gcrj/view?usp=sharing)
-   
-4. Rendering with Kim20 [2]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1XmzkHQcViPsSRsljBpTZm5U4FXDKqD3v/view?usp=sharing)
-   
-5. Rendering with the Proposed Method  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1wqX_A5Utg0D-Uom17TzbNZsbKb297u46/view?usp=sharing)
+|3. Rendering with Kim20 [2]  | 4. Rendering with the Proposed Method |
+|-------------|------------------------|
+| [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1XmzkHQcViPsSRsljBpTZm5U4FXDKqD3v/view?usp=sharing) | [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1wqX_A5Utg0D-Uom17TzbNZsbKb297u46/view?usp=sharing)|
 
 ## Usability (UL)
 ![Usability](Usability.jpg)
 
 ### Audio Rendering Music: 
-1. Ground-truth  
-  [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1nBjtQHmcoDQmWiCd-A-tTFgTSvRCJokh/view?usp=sharing)
-     
-2. Rendering with Kim19 [1]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1y2zl_CyoKVOz4_Ikr0b9lVSbh9XD377E/view?usp=sharing)
+|1. Ground-truth  | 2. Rendering with Kim19 [1]  |
+|-------------|------------------------|
+| [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1nBjtQHmcoDQmWiCd-A-tTFgTSvRCJokh/view?usp=sharing) | [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1y2zl_CyoKVOz4_Ikr0b9lVSbh9XD377E/view?usp=sharing) |
    
-3. Rendering with Kim20 [2]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1hj8Kn_A-yAZ2_QDZffsPZsTXxm8UwpPN/view?usp=sharing)
-    
-4. Rendering with the Proposed Method  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1kvuZo6DTPefnrouK6Q2WGDE17-XINirK/view?usp=sharing)
+|3. Rendering with Kim20 [2]  | 4. Rendering with the Proposed Method |
+|-------------|------------------------|
+| [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1hj8Kn_A-yAZ2_QDZffsPZsTXxm8UwpPN/view?usp=sharing) | [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1kvuZo6DTPefnrouK6Q2WGDE17-XINirK/view?usp=sharing) |
     
 ### Audio Rendering Speech:
-1. Ground-truth  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/162IB5iSAZ7d0goJMMwPNuHAre5kY0Uac/view?usp=sharing)
+|1. Ground-truth  | 2. Rendering with Kim19 [1]  |
+|-------------|------------------------|
+| [![Demo](images/audio.PNG)](https://drive.google.com/file/d/162IB5iSAZ7d0goJMMwPNuHAre5kY0Uac/view?usp=sharing) | [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1QUCLQMsvcrtT242NwIUZRlVWyqi2Y0qL/view?usp=sharing) |
    
-3. Rendering with Kim19 [1]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1QUCLQMsvcrtT242NwIUZRlVWyqi2Y0qL/view?usp=sharing)
-   
-4. Rendering with Kim20 [2]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1n8RLKXUliBPlIL26KbnM-jg2aRSzaXEm/view?usp=sharing)
-   
-5. Rendering with the Proposed Method  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1gvdpUtK5d0XN-ULeu5D0PcNDusqKmGWy/view?usp=sharing) 
+|3. Rendering with Kim20 [2]  | 4. Rendering with the Proposed Method |
+|-------------|------------------------|
+|[![Demo](images/audio.PNG)](https://drive.google.com/file/d/1n8RLKXUliBPlIL26KbnM-jg2aRSzaXEm/view?usp=sharing) | [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1gvdpUtK5d0XN-ULeu5D0PcNDusqKmGWy/view?usp=sharing) |
 
 ---
 # VR Real-Time Application Demo
