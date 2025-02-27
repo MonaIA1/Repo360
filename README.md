@@ -12,29 +12,29 @@ Original sound sources were recorded in an anechoic environment. Speech from the
 
 ### Audio Rendering Music: 
 1. Ground-truth  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1LI9tDGbYeFHzlU9n_uhDSe19fhLXmz9N/view?usp=sharing)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1LI9tDGbYeFHzlU9n_uhDSe19fhLXmz9N/view?usp=sharing) 
      
 3. Rendering with Kim19 [1]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1BBlF_tTRgTWzmkybLY7IPhv0zz0pPu_V/view?usp=sharing)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1BBlF_tTRgTWzmkybLY7IPhv0zz0pPu_V/view?usp=sharing) 
    
 4. Rendering with Kim20 [2]  
    [![Demo](images/audio.PNG)](https://drive.google.com/file/d/146aeV4wLbx9mLssf3E5bznAkhe-f5qs9/view?usp=sharing)
     
 5. Rendering with the Proposed Method  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1TTMwIEzJ_Xv6-VsxqLmKtE1jMwyPitck/view?usp=sharing))
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1TTMwIEzJ_Xv6-VsxqLmKtE1jMwyPitck/view?usp=sharing) 
     
 ### Audio Rendering Speech: 
 1. Ground-truth   
-   [MR-Speech-GT Audio](MeetingRoom(MR)/MR-Speech-GT.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1qYEKLN3zRHKjo7P2Ix0J66mEr6w9o66X/view?usp=sharing) 
    
 3. Rendering with Kim19 [1]  
-   [MR-Speech-Kim19 Audio](MeetingRoom(MR)/MR-Speech-Kim19.wav)
-   
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1UyBtsnMOoGVNCreh0yb0ADCBMwPZAKO0/view?usp=sharing) 
+  
 4. Rendering with kim20 [2]  
-   [MR-Speech-Kim20 Audio](MeetingRoom(MR)/MR-Speech-Kim20.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1qhhU1zMjChjVcbhfY52EiDLEChd5_TWj/view?usp=sharing) 
    
 5. Rendering with the Proposed Method  
-   [MR-Speech-Ours Audio](MeetingRoom(MR)/MR-Speech-Ours.mp3)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1G8XyAifZLJ9Vs_pXBe2HkxaL0h1DAXmm/view?usp=sharing)
 
 ## Kitchen (KT)
 ![Kitchen](Kitchen.jpg)
