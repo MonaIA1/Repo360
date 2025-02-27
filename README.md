@@ -11,17 +11,16 @@ Original sound sources were recorded in an anechoic environment. Speech from the
 ![Meeting Room](MeetingRoom.jpg)
 
 ### Audio Rendering Music: 
-1. Ground-truth  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1LI9tDGbYeFHzlU9n_uhDSe19fhLXmz9N/view?usp=sharing) 
+|1. Ground-truth  | 2. Rendering with Kim19 [1]  |
+|[![Demo](images/audio.PNG)](https://drive.google.com/file/d/1LI9tDGbYeFHzlU9n_uhDSe19fhLXmz9N/view?usp=sharing) |  [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1BBlF_tTRgTWzmkybLY7IPhv0zz0pPu_V/view?usp=sharing) 
      
-3. Rendering with Kim19 [1]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1BBlF_tTRgTWzmkybLY7IPhv0zz0pPu_V/view?usp=sharing) 
+  
    
-4. Rendering with Kim20 [2]  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/146aeV4wLbx9mLssf3E5bznAkhe-f5qs9/view?usp=sharing)
+|3. Rendering with Kim20 [2]  | 4. Rendering with the Proposed Method |
+| [![Demo](images/audio.PNG)](https://drive.google.com/file/d/146aeV4wLbx9mLssf3E5bznAkhe-f5qs9/view?usp=sharing) |  [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1TTMwIEzJ_Xv6-VsxqLmKtE1jMwyPitck/view?usp=sharing) 
     
-5. Rendering with the Proposed Method  
-   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1TTMwIEzJ_Xv6-VsxqLmKtE1jMwyPitck/view?usp=sharing) 
+ 
+  
     
 ### Audio Rendering Speech: 
 1. Ground-truth   
