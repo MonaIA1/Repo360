@@ -95,7 +95,7 @@ Original sound sources were recorded in an anechoic environment. Speech from the
    [UL-Speech-Ours Audio](Usability(UL)/UL-Speech-Ours.mp3)
 
 ---
-# VR Real-Time Application Demo:
+# VR Real-Time Application Demo
 [![Demo](images/thumbnail.PNG)](https://drive.google.com/file/d/1WpDAOlbVa9iQwit7GkHktRNwOfa2AAlL/view?usp=drive_link)
 
 ---
