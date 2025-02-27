@@ -70,33 +70,33 @@ Original sound sources were recorded in an anechoic environment. Speech from the
 
 ### Audio Rendering Music: 
 1. Ground-truth  
-   [UL-Music-GT Audio](Usability(UL)/UL-Music-GT.wav)
+  [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1nBjtQHmcoDQmWiCd-A-tTFgTSvRCJokh/view?usp=sharing)
      
 2. Rendering with Kim19 [1]  
-   [UL-Music-Kim19 Audio](Usability(UL)/UL-Music-Kim19.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1y2zl_CyoKVOz4_Ikr0b9lVSbh9XD377E/view?usp=sharing)
    
 3. Rendering with Kim20 [2]  
-   [UL-Music-Kim20 Audio](Usability(UL)/UL-Music-Kim20.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1hj8Kn_A-yAZ2_QDZffsPZsTXxm8UwpPN/view?usp=sharing)
     
 4. Rendering with the Proposed Method  
-   [UL-Music-Ours Audio](Usability(UL)/UL-Music-Ours.mp3)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1kvuZo6DTPefnrouK6Q2WGDE17-XINirK/view?usp=sharing)
     
 ### Audio Rendering Speech:
 1. Ground-truth  
-   [UL-Speech-GT Audio](Usability(UL)/UL-Speech-GT.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/162IB5iSAZ7d0goJMMwPNuHAre5kY0Uac/view?usp=sharing)
    
 3. Rendering with Kim19 [1]  
-   [UL-Speech-Kim19 Audio](Usability(UL)/UL-Speech-Kim19.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1QUCLQMsvcrtT242NwIUZRlVWyqi2Y0qL/view?usp=sharing)
    
 4. Rendering with Kim20 [2]  
-   [UL-Speech-Kim20 Audio](Usability(UL)/UL-Speech-Kim20.wav)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1n8RLKXUliBPlIL26KbnM-jg2aRSzaXEm/view?usp=sharing)
    
 5. Rendering with the Proposed Method  
-   [UL-Speech-Ours Audio](Usability(UL)/UL-Speech-Ours.mp3)
+   [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1gvdpUtK5d0XN-ULeu5D0PcNDusqKmGWy/view?usp=sharing) 
 
 ---
 # VR Real-Time Application Demo
-[![Demo](images/thumbnail.PNG)](https://drive.google.com/file/d/1WpDAOlbVa9iQwit7GkHktRNwOfa2AAlL/view?usp=drive_link)
+
 
 ---
 ## References
