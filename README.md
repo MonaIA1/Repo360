@@ -1,7 +1,4 @@
-# VR Real-Time Application Demo:
-[![Demo](images/thumbnail.PNG)](https://drive.google.com/file/d/1WpDAOlbVa9iQwit7GkHktRNwOfa2AAlL/view?usp=drive_link)
 
----
 # Results
 Original sound sources were recorded in an anechoic environment. Speech from the TIMIT dataset [3] and Music (clarinet) from the OpenAirLib library [4] used for sound rendering.<br>
 1. Music:
@@ -96,6 +93,10 @@ Original sound sources were recorded in an anechoic environment. Speech from the
    
 5. Rendering with the Proposed Method  
    [UL-Speech-Ours Audio](Usability(UL)/UL-Speech-Ours.mp3)
+
+---
+# VR Real-Time Application Demo:
+[![Demo](images/thumbnail.PNG)](https://drive.google.com/file/d/1WpDAOlbVa9iQwit7GkHktRNwOfa2AAlL/view?usp=drive_link)
 
 ---
 ## References
