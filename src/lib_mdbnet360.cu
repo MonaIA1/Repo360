@@ -1,6 +1,6 @@
 /*
     MDBNet data preprocessing adaped to 360 degrees images
-    Author: Mona Alawadh June,2024
+    Author: June,2024
     Based on ideas from : https://gitlab.com/UnBVision/edgenet360/-/tree/master/src?ref_type=heads 
     and https://github.com/shurans/sscnet
 */
