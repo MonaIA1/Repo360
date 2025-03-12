@@ -225,7 +225,7 @@ void point_cloud_kernel(float* baseline, unsigned char* depth_data,
     // spherical to cartesian coordinate
     float rx = radius * sin(latitude) * cos(CV_PI - longitude);
     float rz = radius * sin(latitude) * sin(CV_PI - longitude);
-    float ry = radius * cos(latitude); /
+    float ry = radius * cos(latitude); 
 
     
     point_cloud[6 * pixel_idx + 0] = rx;
