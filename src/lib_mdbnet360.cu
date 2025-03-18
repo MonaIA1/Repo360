@@ -352,7 +352,7 @@ void get_voxels_kernel(unsigned char* depth_data_GPU, float* point_cloud_GPU, in
     int vx, vy, vz;
     
     //Adjust to vol_number
-    if (*vol_number_GPU == 1) { // Front view ==> rotate 90
+    if (*vol_number_GPU == 1) { // left view ==> rotate 90
         
 
         float rotated_wx = wz; // Swap wx and wz to simulate a 90-degree rotation
@@ -372,7 +372,7 @@ void get_voxels_kernel(unsigned char* depth_data_GPU, float* point_cloud_GPU, in
 
     }
 
-    if (*vol_number_GPU == 2) { // Left view ==>180  degree (phi)
+    if (*vol_number_GPU == 2) { // front
        
         //Calculating viewing angle deviation for each point
         float angle_dev_h = (abs(wz) + abs(rd)) * (sensor_w_GPU / 2) / f_GPU;
@@ -391,7 +391,7 @@ void get_voxels_kernel(unsigned char* depth_data_GPU, float* point_cloud_GPU, in
 
     }
 
-    if (*vol_number_GPU == 3) { // Back view ==>  270 degree rotation (3phi/2)
+    if (*vol_number_GPU == 3) { // right view
 
         float rotated_wx = -wz; // Swap wx and wz to simulate the rotation
         float rotated_wz = wx;
@@ -411,7 +411,7 @@ void get_voxels_kernel(unsigned char* depth_data_GPU, float* point_cloud_GPU, in
 
     }
 
-    if (*vol_number_GPU == 4) { // Right view ==> 0 degree
+    if (*vol_number_GPU == 4) { // Back view 
         
         float angle_dev_h = (abs(-wz) + abs(rd)) * (sensor_w_GPU / 2) / f_GPU;
         float angle_dev_v = (abs(-wz) + abs(rd)) * (sensor_h_GPU / 2) / f_GPU;
@@ -952,7 +952,7 @@ void SquaredDistanceTransform(unsigned char* depth_data, unsigned char* vox_grid
     float wy;
     
     //Adjust to vol_number
-    if (*vol_number_GPU == 1) { // Front view
+    if (*vol_number_GPU == 1) { // left view
       
       wx = - (float(z)*vox_unit_GPU);
       wz = (float(x) - (vox_size_x_GPU / 2)) *vox_unit_GPU ;
@@ -1086,7 +1086,7 @@ void SquaredDistanceTransform(unsigned char* depth_data, unsigned char* vox_grid
       
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
    
-    if (*vol_number_GPU == 2) { // Left view ==> 180  degree (phi)
+    if (*vol_number_GPU == 2) { // front
       
       wz = float(z) * vox_unit_GPU;                    //point_base[0]
       wx = (float(x) - (vox_size_z_GPU/2)) * vox_unit_GPU; //point_base[1]
@@ -1218,7 +1218,7 @@ void SquaredDistanceTransform(unsigned char* depth_data, unsigned char* vox_grid
       }
       
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    if (*vol_number_GPU == 3) { // Back view
+    if (*vol_number_GPU == 3) { // right view
         
       wx = (float(z)) * vox_unit_GPU;
       wz = -((float(x) - (vox_size_x_GPU / 2)) * vox_unit_GPU);
@@ -1347,7 +1347,7 @@ void SquaredDistanceTransform(unsigned char* depth_data, unsigned char* vox_grid
       }
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
    
-    if (*vol_number_GPU == 4) { // Right view ==> 0 degree 
+    if (*vol_number_GPU == 4) { // back view  
             
         wz = (float(-z) * vox_unit_GPU);                    //point_base[0]
         wx = -((float(x) - (vox_size_z_GPU / 2)) * vox_unit_GPU); //point_base[1]
