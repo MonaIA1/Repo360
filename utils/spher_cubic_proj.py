@@ -54,7 +54,7 @@ def spher_cubic_proj(depth_file, rgb_file, out_prefix):
      
     PI = 3.141592
     
-    #For front image
+    #For left image
     x=1.0
     for i in range(0, SENSOR_H):
         z=(float(i)/SENSOR_H * (-2.0)) + 1.0
@@ -91,7 +91,7 @@ def spher_cubic_proj(depth_file, rgb_file, out_prefix):
     depth_views.append((1, out_depth_filename))
     ############################################################################################
     
-    #For left image
+    #For front image
     y = -1.0
     for i in range(0, SENSOR_H):
         z = (float(i) / SENSOR_H * (-2.0)) + 1.0
@@ -131,7 +131,7 @@ def spher_cubic_proj(depth_file, rgb_file, out_prefix):
     depth_views.append((2, out_depth_filename))
     #############################################################################################
     
-    #For back image
+    #For right image
     x = -1.0
     for i in range(0, SENSOR_H):
         z = (float(i) / SENSOR_H * (-2.0)) + 1.0
@@ -172,7 +172,7 @@ def spher_cubic_proj(depth_file, rgb_file, out_prefix):
     ##############################################################################################
     
     
-    #For right image
+    #For back image
     y= 1.0
     for i in range(0, SENSOR_H):
         z = (float(i) / SENSOR_H * (-2.0)) + 1.0
@@ -328,7 +328,7 @@ def spher_cubic_proj(depth_file, rgb_file, out_prefix):
         depth_img[0:height,0:offset] = spher_depth[0:height,width-offset:width]
         depth_img[0:height,offset:width] = spher_depth[0:height,0:width-offset]
      
-    #For front image
+    #For left image
     x = 1.0
     for i in range(0, SENSOR_H):
         z = (float(i) / SENSOR_H * (-2.0)) + 1.0
@@ -539,121 +539,5 @@ def Run():
 if __name__ == '__main__':
   Run()
 '''
-'''
-#################################################################################################################################################################
-import sys
-from PIL import Image
-from math import pi, sin, cos, tan, atan2, hypot, floor
-from numpy import clip
 
-# get x,y,z coords from out image pixels coords
-# i,j are pixel coords
-# faceIdx is face number
-# faceSize is edge length
-def outImgToXYZ(i, j, faceIdx):
-    #a = 2.0 * float(i) / faceSize
-    #b = 2.0 * float(j) / faceSize
-    a = 2.0 * float(i) / SENSOR_W
-    b = 2.0 * float(j) / SENSOR_H
- 
-    if faceIdx == 0: # back
-        (x,y,z) = (-1.0, 1.0 - a, 1.0 - b)
-    elif faceIdx == 1: # left
-        (x,y,z) = (a - 1.0, -1.0, 1.0 - b)
-    elif faceIdx == 2: # front
-        (x,y,z) = (1.0, a - 1.0, 1.0 - b)
-    elif faceIdx == 3: # right
-        (x,y,z) = (1.0 - a, 1.0, 1.0 - b)
-    elif faceIdx == 4: # top
-        (x,y,z) = (b - 1.0, a - 1.0, 1.0)
-    elif faceIdx == 5: # bottom
-        (x,y,z) = (1.0 - b, a - 1.0, -1.0)
-
-    return (x, y, z)
-
-# convert using an inverse transformation
-def convertFace(imgIn, imgOut, faceIdx):
-    inSize = imgIn.size
-    outSize = imgOut.size
-    inPix = imgIn.load()
-    outPix = imgOut.load()
-    faceSize = outSize[0]
-
-    for xOut in range(SENSOR_W):
-        for yOut in range(SENSOR_H):
-            (x,y,z) = outImgToXYZ(xOut, yOut, faceIdx)
-            theta = atan2(y,x) # range -pi to pi
-            r = hypot(x,y)
-            phi = atan2(z,r) # range -pi/2 to pi/2
-
-            # source img coords
-            uf = 0.5 * inSize[0] * (theta + pi) / pi
-            vf = 0.5 * inSize[0] * (pi/2 - phi) / pi
-
-            # Use bilinear interpolation between the four surrounding pixels
-            ui = floor(uf)  # coord of pixel to bottom left
-            vi = floor(vf)
-            u2 = ui+1       # coords of pixel to top right
-            v2 = vi+1
-            mu = uf-ui      # fraction of way across pixel
-            nu = vf-vi
-
-            # Pixel values of four corners
-            A = inPix[ui % inSize[0], clip(vi, 0, inSize[1]-1)]
-            B = inPix[u2 % inSize[0], clip(vi, 0, inSize[1]-1)]
-            C = inPix[ui % inSize[0], clip(v2, 0, inSize[1]-1)]
-            D = inPix[u2 % inSize[0], clip(v2, 0, inSize[1]-1)]
-
-            # interpolate
-            (r,g,b) = (
-              A[0]*(1-mu)*(1-nu) + B[0]*(mu)*(1-nu) + C[0]*(1-mu)*nu+D[0]*mu*nu,
-              A[1]*(1-mu)*(1-nu) + B[1]*(mu)*(1-nu) + C[1]*(1-mu)*nu+D[1]*mu*nu,
-              A[2]*(1-mu)*(1-nu) + B[2]*(mu)*(1-nu) + C[2]*(1-mu)*nu+D[2]*mu*nu )
-
-            outPix[xOut, yOut] = (int(round(r)), int(round(g)), int(round(b)))
-
-
-def spher_cubic_proj(depth_file, rgb_file, out_prefix):
-    
-    spher_rgb = cv2.imread(rgb_file, cv2.IMREAD_COLOR)
-    spher_depth = cv2.imread(depth_file, cv2.IMREAD_ANYDEPTH)
-    print('spher_rgb shape', spher_rgb.shape)
-    print('spher_depth shape', spher_depth.shape)
-    height, width, channels = spher_rgb.shape
-    rgb_views = []
-    depth_views = []
-    imgIn = Image.open(rgb_file)
-    inSize = imgIn.size
-    print (inSize)
-    faceSize = inSize[0] // 4
-    #components = rgb_file.rsplit('.', 2)
-    
-    FACE_NAMES = {
-      #0: 'back', #cubic3
-      #1: 'left', # cubic2
-      #2: 'front', # cubic1
-      #3: 'right', # cubic4
-      #4: 'top',
-      #5: 'bottom'
-      
-      0: 'Cubic_1_front', # front
-      1: 'Cubic_2_left', # left
-      2: 'Cubic_3_right', # back
-      3: 'Cubic_4_back', # right
-      4: 'top',
-      5: 'bottom'
-    }
-    
-    if not os.path.exists('./splitted_spher'):
-        os.makedirs('./splitted_spher')
-    
-    for face in range(6):
-        imgOut = Image.new("RGB", (SENSOR_W, SENSOR_H), "black")
-        convertFace(imgIn, imgOut, face) # depth_file, rgb_file, out_prefix
-        out_filename = f'./splitted_spher/{out_prefix.rsplit("/", 1)[-1]}'
-        imgOut.save(out_filename+"_" + FACE_NAMES[face] + ".png")
-        rgb_views.append((face+1, out_filename))
-        
-    return rgb_views, depth_views
-'''
     
