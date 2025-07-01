@@ -71,7 +71,7 @@ Original sound sources were recorded in an anechoic environment. Speech from the
 |[![Demo](images/audio.PNG)](https://drive.google.com/file/d/1n8RLKXUliBPlIL26KbnM-jg2aRSzaXEm/view?usp=sharing) | [![Demo](images/audio.PNG)](https://drive.google.com/file/d/1gvdpUtK5d0XN-ULeu5D0PcNDusqKmGWy/view?usp=sharing) |
 
 ---
-# VR Real-Time Application Demo
+# VR Real-Time Audio-Visual Rendering Demo
 [![Demo](images/thumbn.PNG)](https://drive.google.com/file/d/1cpxaLeROsx45kw9HdAE2ZNBbOkJaD8Qp/view?usp=drive_link)
 
 ---
